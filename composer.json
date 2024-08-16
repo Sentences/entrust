@@ -1,6 +1,6 @@
 {
     "name": "sentences/entrust",
-    "description": "This package provides a flexible way to add Role-based Permissions to Laravel. Original by Zizaco",
+    "description": "This package provides a flexible way to add Role-based Permissions to Laravel. Fork from Zizaco/Entrust",
     "keywords": ["laravel","illuminate","auth","roles","acl","permission"],
     "license": "MIT",
     "authors": [
@@ -42,16 +42,16 @@
             "src/commands"
         ],
         "psr-4": {
-            "Zizaco\\Entrust\\": "src/Entrust/"
+            "Sentences\\Entrust\\": "src/Entrust/"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "Zizaco\\Entrust\\EntrustServiceProvider"
+                "Sentences\\Entrust\\EntrustServiceProvider"
             ],
             "aliases":{
-                "Entrust": "Zizaco\\Entrust\\EntrustFacade"
+                "Entrust": "Sentences\\Entrust\\EntrustFacade"
             }
         }
     },
